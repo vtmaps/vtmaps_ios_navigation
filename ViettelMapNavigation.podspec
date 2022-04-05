@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   s.module_name = "MapboxNavigation"
 
   s.dependency "ViettelMapCoreNavigation", "#{s.version.to_s}"
-  s.dependency "ViettelMapSDK", "~> 0.0.1"
+  s.dependency "ViettelMapSDK", "~> 1.0.3"
   s.dependency "Solar", "~> 2.1"
   s.dependency "MapboxSpeech", "~> 0.1.0"
 
